@@ -1,0 +1,14 @@
+{
+  "name": "mindwell",
+  "version": "1.0.0",
+  "description": "MindWell Mental Health Support System - Root",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
