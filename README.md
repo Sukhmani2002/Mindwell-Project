@@ -22,7 +22,7 @@ MindWell is a full-stack **MERN mental wellness platform** built to help users t
 
 ### 🚀 Run Locally
 
-bash
+```bash
 # Backend
 cd server
 npm install
@@ -32,9 +32,9 @@ npm run dev
 cd client
 npm install
 npm start
+```
 
-
-Create a .env file in server/ with your MongoDB, JWT, and AI API credentials.
+Create a `.env` file in `server/` with your MongoDB, JWT, and AI API credentials.
 
 ---
 
